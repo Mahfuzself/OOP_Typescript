@@ -7,12 +7,10 @@ export class Person {
     this.name = name;
     this.age = age;
   }
-public getName() :string{
-    return this.name;
+public getValue():{name:string,age:number}{
+    return {name:this.name,age:this.age};
   }
-  public getAge() :number{
-    return this.age;
-  }
+
   public greet() {
     console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
   }
