@@ -1,6 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const person_1 = require("./person");
+// import { Animal } from "./abstruction";
 const person1 = new person_1.Person();
 person1.setValue("Alice", 30);
 person1.greet();
+const dog = new Dog();
+dog.makeSound();
+dog.move();
+const cat = new Cat();
+cat.makeSound();
+cat.move();
